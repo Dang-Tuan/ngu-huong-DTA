@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+nav
+{position:fixed;
+width: 100%;
+padding: 5px 0;
+background-color: rgba(24,63,66,0.91);
+	box-shadow: 0 5px 10px #ddd;
+	border:none;
+	z-index:9999998
+}
+section
+{
+	min-height: 800px;
+	padding:100px 0
+}
+footer
+{padding: 50px 0;
+background-color: #6BA2FF;
+}
+nav .menu ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+	display: flex
+	
+}
+nav .menu ul ul{position: absolute;
+left: 20px;
+top:100%;
+display: none;
+background-color:#E6CB5E}
+nav .menu  ul li
+{ position: relative}
+
+nav .menu ul ul a
+{ color: rgba(43,79,82,1.00);
+	padding: 5px 30px;
+	display: block}
+nav .menu a
+{
+	text-decoration:none;
+	color: #E6CB5E;
+	font-weight: 800;
+	display: block;
+	padding:10px 30px;
+	font-size: 18px}
+nav .menu a:hover
+{	border-bottom: 2px solid rgba(39,105,218,1.00)
+}
+nav .menu  ul li:hover >ul
+{display: block
+}
+.btn-primary
+{
+	background-color: #F0FFE5;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #E6CB5E;
+	font-size: 20px;
+}
+.btn-primary:hover
+{
+	background:#E6CB5E;
+	color: #F0FFE5
+}
+body
+{background-image: url("../images/parttern.png");
+
+background-repeat:no-repeat;
+	background-position: left
+}
+.bannerchay
+{background-position: 200px
+}
